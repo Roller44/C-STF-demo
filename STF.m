@@ -1,0 +1,15 @@
+function y = STF
+freqSeq = zeros(1, 54);
+freqSeq(1, 3) = 1 + 1i;
+freqSeq(1, 7) = -1 - 1i;
+freqSeq(1, 11) = 1 + 1i;
+freqSeq(1, 15) = -1 - 1i;
+freqSeq(1, 19) = -1 - 1i;
+freqSeq(1, 23) = 1 + 1i;
+freqSeq(1, 31) = -1 - 1i;
+freqSeq(1, 35) = -1 - 1i;
+freqSeq(1, 39) = 1 + 1i;
+freqSeq(1, 43) = 1 + 1i;
+freqSeq(1, 47) = 1 + 1i;
+freqSeq(1, 51) = 1 + 1i;
+y = ifft(freqSeq, 64);

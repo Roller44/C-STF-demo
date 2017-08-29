@@ -1,0 +1,3 @@
+function y = STF;
+freqSeq = zeros(1, 54);
+freqSeq(1, 3) = 
